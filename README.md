@@ -1,3 +1,3 @@
 # git_test
-First repo
+First repository!
 Hello World!
