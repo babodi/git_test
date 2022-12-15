@@ -1,0 +1,10 @@
+h2, h3, strong {
+  color: white;
+  background-color: black;
+}
+
+* {
+  color: white;
+  background-color: grey;
+}
+
