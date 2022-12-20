@@ -5,11 +5,22 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Boilerplate</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <!-- can use either internal or external CSS code -->
+    <style>
+      h1, h2, h3 {
+        color: red;
+        background-color: pink;
+      }
+
+      p {
+        color: red;
+      }
+    </style> 
   </head>
 
   <body>
-    <h1>HTML Boilerplate</h1>
+    <div><h1>HTML Boilerplate</h1></div>
     <p>This is a document demonstrating basic HTML boilerplate.</p>
     
     <h2>DOCTYPE Element</h2>
@@ -17,7 +28,7 @@
     <p>This ensures that you are using the latest version of HTML.</p>
     
     <h2>HTML Element</h2>
-    <p>All other elements reside withing the HTML element.</p>
+    <div><p>All other elements reside withing the HTML element.</p></div>
     <p>You could say they are <em>children</em> of the <em>parent</em> element.</p>
 
     <h2>Head Element</h2>
