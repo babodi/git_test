@@ -1,3 +1,2 @@
 # git_test
-First repository!
-Hello World!
+Repository for testing purposes.
