@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+code {
+  background-color: darkslategrey;
+  color: white;
+}
+
+em,
+strong {
+  display: inline-block;
+  border: 1px dashed red;
+  background-color: lightgrey;
+  margin: 2px 0;
+}
+
+.one {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  background-color: honeydew;
+  border: 2px solid black;
+}
