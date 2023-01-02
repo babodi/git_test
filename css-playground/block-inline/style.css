@@ -8,9 +8,26 @@ html {
   box-sizing: inherit;
 }
 
-code {
-  background-color: darkslategrey;
-  color: white;
+h1,
+h2 {
+  padding: 4px;
+  width: fit-content;
+}
+
+h1,
+h2,
+h3 {
+  background-color: linen;
+  border: 1px solid black;
+  margin: 4px auto;
+  text-align: center;
+}
+
+p > code {
+  display: inline-block;
+  background-color: gainsboro;
+  border: 1px dotted black;
+  color: black;
 }
 
 em,
@@ -18,13 +35,44 @@ strong {
   display: inline-block;
   border: 1px dashed red;
   background-color: lightgrey;
-  margin: 2px 0;
+  margin: 4px 0;
 }
 
-.one {
-  max-width: 400px;
-  margin: auto;
+.main {
+  width: 400px;
+  margin: 2em auto;
+  padding: .5em;
   text-align: center;
   background-color: honeydew;
   border: 2px solid black;
+}
+
+.main.bros {
+  width: fit-content;
+}
+
+.bro-left {
+  background-color: royalblue;
+  color: white;
+}
+
+.bro-right {
+  background-color: springgreen;
+  color: black;
+}
+
+.one,
+.two {
+  display: inline-block;
+  border: 1px dashed black;
+  margin: 4px;
+  padding: 5px;
+}
+
+.one {
+  background-color: skyblue
+}
+
+.two {
+  background-color: palegreen;
 }
