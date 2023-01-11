@@ -24,3 +24,30 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Fixes */
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.item-container {
+  display: flex;
+  /*padding: 32px 0;*/
+  gap: 52px;
+  justify-content: center;
+}
+
+.item {
+  width: 200px;
+  
+  /* This with .text and .title text-align: center seemed to also work.
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  */
+}
+
