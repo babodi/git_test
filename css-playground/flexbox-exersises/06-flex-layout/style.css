@@ -25,3 +25,57 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* Fixes */
+
+body,
+ul,
+.header,
+.footer,
+.content {
+  display: flex;
+}
+
+body,
+.content {
+  flex-direction: column;
+}
+
+body,
+.header,
+.footer {
+  justify-content: space-between;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.header,
+.footer {
+  padding: 16px;
+}
+
+.footer {
+  background: #eeeeee;
+}
+
+.content {
+  /* seems to work without these two
+  flex: 1;
+  justify-content: center;
+  */
+  align-items: center;
+} 
+
+button {
+  padding: 8px 16px;
+}
