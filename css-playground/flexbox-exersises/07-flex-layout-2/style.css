@@ -26,3 +26,76 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Fixes */
+
+body,
+.header,
+.footer,
+.container,
+.card-container {
+  display: flex;
+}
+
+body,
+.header,
+.footer {
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.header,
+.footer {
+  justify-content: center;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.container {
+  flex: 1;
+}
+
+.sidebar,
+.card {
+  padding: 16px;
+}
+
+.sidebar {
+  flex: 0 0 300px;
+}
+
+.card-container {
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 48px;
+}
+
+.card {
+  /* Seems to work without
+   * flex: 1 0 300px;
+  max-width: 300px;*/
+  width: 300px;
+}
