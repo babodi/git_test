@@ -3,13 +3,7 @@
 }
 
 body {
-}
-
-.container {
-  background: honeydew;
-  width: 80%;
-  margin: 0 auto;
-  border: 1px solid black;
+  background: teal;
 }
 
 h1,
@@ -18,12 +12,30 @@ header > p {
   text-align: center;
 }
 
-/*
-section > .item,
-section > .price {
+main {
+  background: honeydew;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+.item > p {
   display: inline-block;
 }
 
+.fruit,
+.veggie {
+  width: 75%;
+  text-align: left;
+}
+
+.price {
+  width: 25%;
+  text-align: right;
+}
+
+/*
 .item,
 .price {
   margin-left: auto;
