@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.container {
+  background: honeydew;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+h1,
+h2,
+header > p {
+  text-align: center;
+}
+
+/*
+section > .item,
+section > .price {
+  display: inline-block;
+}
+
+.item,
+.price {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item, {
+  width: 49%;
+}
+
+.price {
+  width: 49%;
+}
+*/
