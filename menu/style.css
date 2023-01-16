@@ -21,18 +21,39 @@ h2 {
 }
 
 h1 {
-  font-size: 2.33rem;
+  font-size: 40px;
   text-decoration: underline;
+  margin: 26px 0 16px;
 }
 
 h2 {
-  font-size: 1.33rem;
+  font-size: 22px;
+  margin-bottom: 8px;
 }
 
 header > p {
   font-family: serif, sans-serif;
   font-style: italic;
   font-size: 16px;
+  margin-bottom: 32px;
+}
+
+footer > p {
+  font-family: serif;
+  margin-bottom: 26px;
+  font-size: 16px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: teal;
+}
+
+section {
+  margin: 26px 0;
 }
 
 hr {
@@ -41,10 +62,17 @@ hr {
   border-color: black;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+}
+
 .container {
   background: honeydew;
   width: 80%;
-  max-width: 450px;
+  max-width: 500px;
   min-width: 300px;
   margin: 0 auto;
   padding: 1rem;
@@ -57,7 +85,7 @@ hr {
 }
 
 .item {
-  margin: 1rem 0;
+  margin: .5rem 0;
   border-bottom: 1px dotted black;
 }
 
