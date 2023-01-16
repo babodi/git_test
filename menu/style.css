@@ -4,24 +4,61 @@
 
 body {
   background: teal;
+  font-family: monospace, sans-serif;
+  margin: 3em auto;
 }
 
 h1,
 h2,
-header > p {
+header > p,
+footer > p {
   text-align: center;
 }
 
-main {
+h1,
+h2 {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2.33rem;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 1.33rem;
+}
+
+header > p {
+  font-family: serif, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+}
+
+hr {
+  height: 3px;
+  background: teal;
+  border-color: black;
+}
+
+.container {
   background: honeydew;
   width: 80%;
+  max-width: 450px;
+  min-width: 300px;
   margin: 0 auto;
   padding: 1rem;
-  border: 1px solid black;
+  border: 10px outset grey;
 }
 
 .item > p {
   display: inline-block;
+  margin: 0;
+}
+
+.item {
+  margin: 1rem 0;
+  border-bottom: 1px dotted black;
 }
 
 .fruit,
