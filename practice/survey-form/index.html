@@ -17,14 +17,28 @@
       <main>
         <form id='survey-form'>
           <fieldset>
-            <label id='name-label'>Name:  
-              <input id='name' type='text' placeholder='Enter your name' required></input>
+            <label id='name-label' for='name'>Name:  
+              <input id='name' name='name' type='text' placeholder='Enter your name' required></input>
             </label>
-            <label id='email-label'>Email:
-              <input id='email' type='email' placeholder='Enter your email' required></input>
+            <label id='email-label' for='email'>Email:
+              <input id='email' name='email' type='email' placeholder='Enter your email' required></input>
             </label>
-            <label id='number-label'>Age:
-              <input id='number' type='number' placeholder='Enter your age' min='13' max='120' required></input>
+            <label id='number-label' for='number'>Age:
+              <input id='number' name='number' type='number' placeholder='Enter your age' min='13' max='120' required></input>
+            </label>
+            <label id='dropdown-label' for='dropdown'>Pick an option:
+              <select id='dropdown' name='dropdown' required>
+                <option disabled selected value>Pick an option</option>
+                <option value='1'>1</option>
+                <option value='2'>2</option>
+                <option value='3'>3</option>
+              </select>
+            </label>
+            <label for='radio-one'>
+              <input id='radio-one' type='radio'>Option 1</input>
+            </label>
+            <label for='radio-two'>
+              <input id='radio-two' type='radio'>Option 2</input>
             </label>
           </fieldset>
         </form>
