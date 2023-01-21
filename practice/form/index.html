@@ -32,15 +32,17 @@
 
         <fieldset>
           <!-- Radio inputs of the same name lets only one to be selected -->
-          <label for='personal-account'>Personal Account
-            <input id='personal-account' type='radio' name='account-type'/>
+          <label for='personal-account'>
+            <input id='personal-account' class='inline' type='radio' name='account-type'/>
+            Personal Account
           </label>
-          <label for='business-account'>Business Account
-            <input id='business-account' type='radio' name='account-type'/>
+          <label for='business-account'>
+            <input id='business-account' class='inline'type='radio' name='account-type'/>
+            Business Account
           </label>
           <label for='terms-and-conditions' name='tos'>
+            <input id='terms-and-conditions' class='inline' name='tos' type='checkbox' required/> 
             I accept the <a href='example.com'>terms and conditions</a>
-            <input id='terms-and-conditions' name='tos' type='checkbox' required/>
           </label>
         </fieldset>
 
@@ -50,13 +52,13 @@
             <input id='profile-picture' name='profile-picture' type='file'/>
           </label>
           <label for='age'>Input your age:
-            <input id='age' name='age' type='number' min='13' max='120'/>
+            <input id='age' name='age' type='number' min='13' max='120' placeholder='optional'/>
           </label>
           <label for='referrer'>How did you hear about us?
             <select id='referrer' name='referrer'>
               <!-- value selected is sent to server, default is nested text -->
               <option disabled selected>(select one)</option>
-              <option value='1'>Friend</option>
+              <option class='test' value='1'>Friend</option>
               <option value='2'>Family member</option>
               <option value='3'>Internet</option>
               <option value='4'>Other</option>
