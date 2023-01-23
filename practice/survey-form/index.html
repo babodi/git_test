@@ -28,17 +28,50 @@
             </label>
             <label id='dropdown-label' for='dropdown'>Pick an option:
               <select id='dropdown' name='dropdown' required>
-                <option disabled selected value>Pick an option</option>
+                <option disabled selected value>(select one)</option>
                 <option value='1'>1</option>
                 <option value='2'>2</option>
                 <option value='3'>3</option>
               </select>
             </label>
-            <label for='radio-one'>
-              <input id='radio-one' type='radio'>Option 1</input>
-            </label>
-            <label for='radio-two'>
-              <input id='radio-two' type='radio'>Option 2</input>
+          </fieldset>
+
+          <fieldset>
+            <div class='radio-container'>
+              <p>Select an option:</p>
+              <label for='radio-one'>
+                <input class='radio' id='radio-one' name='radio-group-one' type='radio'/>
+                Radio One
+              </label>
+              <label for='radio-two'>
+                <input class='radio' id='radio-two' name='radio-group-one' type='radio'/>
+                Radio Two
+              </label>
+            </div>
+            <div class='checkbox-container'>
+              <p>Check what is applicable:</p>
+              <label>
+                <input class='checkbox' name='checkbox' value='1' type='checkbox'/>
+                Checkbox 1
+              </label>
+              <label>
+                <input class='checkbox' name='checkbox' value='2' type='checkbox'/>
+                Checkbox 2
+              </label>
+              <label>
+                <input class='checkbox' name='checkbox' value='3' type='checkbox'/>
+                Checkbox 3
+              </label>
+              <label>
+                <input class='checkbox' name='checkbox' value='4' type='checkbox'/>
+                Checkbox 4
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <label>Write something:
+              <textarea name='textarea' placeholder='Blah blah blah'></textarea>
             </label>
           </fieldset>
         </form>
