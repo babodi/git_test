@@ -16,7 +16,7 @@
 
       <main>
         <form id='survey-form'>
-          <fieldset>
+          <fieldset class='input-container'>
             <label id='name-label' for='name'>Name:  
               <input id='name' name='name' type='text' placeholder='Enter your name' required></input>
             </label>
@@ -38,7 +38,7 @@
 
           <fieldset>
             <div class='radio-container'>
-              <p>Select an option:</p>
+              <p class='container-header'>Select an option:</p>
               <label for='radio-one'>
                 <input class='radio' id='radio-one' name='radio-group-one' type='radio'/>
                 Radio One
@@ -49,7 +49,7 @@
               </label>
             </div>
             <div class='checkbox-container'>
-              <p>Check what is applicable:</p>
+              <p class='container-header'>Check what is applicable:</p>
               <label>
                 <input class='checkbox' name='checkbox' value='1' type='checkbox'/>
                 Checkbox 1
@@ -71,9 +71,10 @@
 
           <fieldset>
             <label>Write something:
-              <textarea name='textarea' placeholder='Blah blah blah'></textarea>
+              <textarea name='textarea' rows='4' placeholder='Blah blah blah'></textarea>
             </label>
           </fieldset>
+          <input type='submit' value='Submit'>
         </form>
       </main>
 

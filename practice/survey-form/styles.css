@@ -12,6 +12,20 @@ header {
   text-align: center;
 }
 
+form {
+  padding: 2em;
+  margin: 0 auto;
+  max-width: 600px;
+  min-width: 500px;
+  border: 2px solid black;
+}
+
+fieldset {
+  margin: 1em 0;
+  padding: 0;
+  border: none;
+}
+
 label {
   display: block;
 }
@@ -20,9 +34,27 @@ input,
 select,
 textarea {
   width: 100%;
+  min-height: 2em;
+  margin-top: .5em;
+  resize: vertical;
+}
+
+.input-container > label {
+  margin: 1em 0;
+}
+
+.checkbox-container,
+.radio-container {
+  margin: 1em 0;
 }
 
 .radio,
 .checkbox {
   width: unset;
+  margin: 0 .5rem 0 0;
+  vertical-align: middle;
+}
+
+.container-header {
+  margin: 0 0 5px 0;
 }
