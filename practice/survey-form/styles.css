@@ -4,7 +4,7 @@
 
 body {
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
 }
 
@@ -14,10 +14,12 @@ header {
 
 form {
   padding: 2em;
-  margin: 0 auto;
+  margin: 2em auto;
   max-width: 600px;
   min-width: 500px;
   border: 2px solid black;
+  border-radius: 5px;
+  background-color: lavender;
 }
 
 fieldset {
@@ -37,10 +39,36 @@ textarea {
   min-height: 2em;
   margin-top: .5em;
   resize: vertical;
+  background: lavenderblush;
+  border-radius: 5px;
+}
+
+input[type='submit'] {
+  margin-bottom: 1rem;
+  height: 3em;
+  font-size: 16px;
+  background: thistle;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.drop-shadow {
+  border: 1px solid black;
+  box-shadow: 2px 2px black;
+}
+
+.input-container {
+  margin-top: 0;
 }
 
 .input-container > label {
   margin: 1em 0;
+}
+
+.radio-container > label,
+.checkbox-container > label {
+  margin-top: 5px;
+  font-size: 15px;
 }
 
 .checkbox-container,
@@ -56,5 +84,5 @@ textarea {
 }
 
 .container-header {
-  margin: 0 0 5px 0;
+  margin: 0 0 10px 0;
 }

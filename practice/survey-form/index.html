@@ -18,16 +18,16 @@
         <form id='survey-form'>
           <fieldset class='input-container'>
             <label id='name-label' for='name'>Name:  
-              <input id='name' name='name' type='text' placeholder='Enter your name' required></input>
+              <input class='drop-shadow' id='name' name='name' type='text' placeholder='Enter your name' required></input>
             </label>
             <label id='email-label' for='email'>Email:
-              <input id='email' name='email' type='email' placeholder='Enter your email' required></input>
+              <input class='drop-shadow'id='email' name='email' type='email' placeholder='Enter your email' required></input>
             </label>
             <label id='number-label' for='number'>Age:
-              <input id='number' name='number' type='number' placeholder='Enter your age' min='13' max='120' required></input>
+              <input class='drop-shadow' id='number' name='number' type='number' placeholder='Enter your age' min='13' max='120' required></input>
             </label>
             <label id='dropdown-label' for='dropdown'>Pick an option:
-              <select id='dropdown' name='dropdown' required>
+              <select class='drop-shadow' id='dropdown' name='dropdown' required>
                 <option disabled selected value>(select one)</option>
                 <option value='1'>1</option>
                 <option value='2'>2</option>
@@ -36,7 +36,7 @@
             </label>
           </fieldset>
 
-          <fieldset>
+          <fieldset class='option-container'>
             <div class='radio-container'>
               <p class='container-header'>Select an option:</p>
               <label for='radio-one'>
@@ -71,7 +71,7 @@
 
           <fieldset>
             <label>Write something:
-              <textarea name='textarea' rows='4' placeholder='Blah blah blah'></textarea>
+              <textarea class='drop-shadow'  name='textarea' rows='4' placeholder='Blah blah blah'></textarea>
             </label>
           </fieldset>
           <input type='submit' value='Submit'>
