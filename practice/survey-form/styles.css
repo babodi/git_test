@@ -6,10 +6,13 @@ body {
   font-family: sans-serif;
   font-size: 18px;
   margin: 0;
+  background: ghostwhite;
+  color: #332a60;
 }
 
 header {
   text-align: center;
+  color: black;
 }
 
 form {
@@ -17,8 +20,7 @@ form {
   margin: 2em auto;
   max-width: 600px;
   min-width: 500px;
-  border: 2px solid black;
-  border-radius: 5px;
+  box-shadow: 8px 8px hsl(240deg 67% 90%);
   background-color: lavender;
 }
 
@@ -39,22 +41,35 @@ textarea {
   min-height: 2em;
   margin-top: .5em;
   resize: vertical;
-  background: lavenderblush;
+  background: white;
   border-radius: 5px;
 }
 
-input[type='submit'] {
-  margin-bottom: 1rem;
+.submit {
+  margin: 1rem 0;
   height: 3em;
   font-size: 16px;
-  background: thistle;
-  border: 2px solid black;
-  border-radius: 10px;
+  font-weight: 700;
+  background: #d4d4f7;
+  border: 1px solid black;
+}
+
+.submit:hover {
+  background: ghostwhite;
+}
+
+.submit:active {
+  border: none; 
 }
 
 .drop-shadow {
-  border: 1px solid black;
-  box-shadow: 2px 2px black;
+  border: none;
+  box-shadow: 4px 4px #d4d4f7;
+  padding: .5em;
+}
+
+.drop-shadow:focus {
+  outline: 1px solid black;
 }
 
 .input-container {
@@ -73,7 +88,7 @@ input[type='submit'] {
 
 .checkbox-container,
 .radio-container {
-  margin: 1em 0;
+  margin-bottom: 1em;
 }
 
 .radio,
