@@ -13,13 +13,20 @@ body {
 header {
   text-align: center;
   color: black;
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 44px;
+  margin-bottom: -10px;
 }
 
 form {
   padding: 2em;
   margin: 2em auto;
   max-width: 600px;
-  min-width: 500px;
+  min-width: 400px;
+  border-radius: 6px;
   box-shadow: 8px 8px hsl(240deg 67% 90%);
   background-color: lavender;
 }
@@ -50,7 +57,7 @@ textarea {
   height: 3em;
   font-size: 16px;
   font-weight: 700;
-  background: #d4d4f7;
+  background: #b3b3f3;
   border: 1px solid black;
 }
 

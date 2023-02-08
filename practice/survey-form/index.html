@@ -10,8 +10,8 @@
   <body>
     <div class='container'>
       <header>
-        <h1 id='title'>Survey Form</h1>
-        <p id='description'>Please fill out this survey.</p>
+        <h1 id='title'>Sleep Survey</h1>
+        <p id='description'>Please take the time to fill out this form.</p>
       </header>
 
       <main>
@@ -26,52 +26,99 @@
             <label id='number-label' for='number'>Age:
               <input class='drop-shadow' id='number' name='number' type='number' placeholder='Enter your age' min='13' max='120' required></input>
             </label>
-            <label id='dropdown-label' for='dropdown'>Pick an option:
+            <label id='dropdown-label' for='dropdown'>What time do you go to bed?
               <select class='drop-shadow' id='dropdown' name='dropdown' required>
                 <option disabled selected value>(select one)</option>
-                <option value='1'>1</option>
-                <option value='2'>2</option>
-                <option value='3'>3</option>
+                <option value='1'>Before 9PM</option>
+                <option value='2'>9PM-12AM</option>
+                <option value='3'>12AM-3AM</option>
+                <option value='4'>3AM-9AM</option>
+                <option value='5'>9AM-9PM</option>
+                <option value='6'>Random</option>
               </select>
             </label>
           </fieldset>
 
           <fieldset class='option-container'>
             <div class='radio-container'>
-              <p class='container-header'>Select an option:</p>
+              <p class='container-header'>How many hours of sleep do you get a day?</p>
               <label for='radio-one'>
                 <input class='radio' id='radio-one' name='radio-group-one' type='radio'/>
-                Radio One
+                Less than an hour
               </label>
               <label for='radio-two'>
                 <input class='radio' id='radio-two' name='radio-group-one' type='radio'/>
-                Radio Two
+                1-3 hours
+              </label>
+              <label for='radio-three'>
+                <input class='radio' id='radio-three' name='radio-group-one' type='radio'/>
+                3-6 hours
+              </label>
+              <label for='radio-four'>
+                <input class='radio' id='radio-four' name='radio-group-one' type='radio'/>
+                6-8 hours
+              </label>
+              <label for='radio-five'>
+                <input class='radio' id='radio-five' name='radio-group-one' type='radio'/>
+                8+ hours
               </label>
             </div>
             <div class='checkbox-container'>
-              <p class='container-header'>Check what is applicable:</p>
+              <p class='container-header'>What have you tried to improve sleep quality?</p>
               <label>
                 <input class='checkbox' name='checkbox' value='1' type='checkbox'/>
-                Checkbox 1
+                Adhere to a sleep schedule
               </label>
               <label>
                 <input class='checkbox' name='checkbox' value='2' type='checkbox'/>
-                Checkbox 2
+                Melatonin or other supplement
               </label>
               <label>
                 <input class='checkbox' name='checkbox' value='3' type='checkbox'/>
-                Checkbox 3
+                Buckseed pillow
               </label>
               <label>
                 <input class='checkbox' name='checkbox' value='4' type='checkbox'/>
-                Checkbox 4
+                Change/flip mattress
+              </label>
+              <label>
+                <input class='checkbox' name='checkbox' value='5' type='checkbox'/>
+                Exersize
+              </label>
+              <label>
+                <input class='checkbox' name='checkbox' value='6' type='checkbox'/>
+                Diet
+              </label>
+              <label>
+                <input class='checkbox' name='checkbox' value='7' type='checkbox'/>
+                Reduce blue light exposure before bed
+              </label>
+              <label>
+                <input class='checkbox' name='checkbox' value='8' type='checkbox'/>
+                Reduce caffine intake
+              </label>
+              <label>
+                <input class='checkbox' name='checkbox' value='9' type='checkbox'/>
+                Reduce daytime naps
+              </label>
+              <label>
+                <input class='checkbox' name='checkbox' value='10' type='checkbox'/>
+                Reduce alcohol intake
+              </label>
+              <label>
+                <input class='checkbox' name='checkbox' value='11' type='checkbox'/>
+                Adjust bedroom temperature
+              </label>
+              <label>
+                <input class='checkbox' name='checkbox' value='12' type='checkbox'/>
+                Other
               </label>
             </div>
           </fieldset>
 
           <fieldset>
-            <label>Write something:
-              <textarea class='drop-shadow'  name='textarea' rows='4' placeholder='Blah blah blah'></textarea>
+            <label>What do you do an hour before you go to bed?
+              <textarea class='drop-shadow' name='textarea' rows='4' placeholder='Blah blah blah...'></textarea>
             </label>
           </fieldset>
           <input class='submit' type='submit' value='Submit'>
